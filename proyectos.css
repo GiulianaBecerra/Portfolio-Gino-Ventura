@@ -1,0 +1,336 @@
+/*---Header---*/
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    background: #F5F5F5;
+}
+
+header {
+    background: linear-gradient(#bbb8b8cc, #F5F5F5);
+    padding: 2rem 3rem 5rem 3rem;
+}
+
+.caja {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.circulo {
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #f3a702;
+}
+
+h1 {
+    position: absolute;
+    display: inline;
+}
+
+.nombre-link {
+    font-size: 1.8rem;
+    color: black;
+    text-decoration: none;
+    margin-left: 2.15rem;
+}
+
+.nombre-link:hover {
+    color: #c78c19;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 2rem;
+}
+
+nav a{
+    color: black;
+    font-size: 1.35rem;
+    text-decoration: none;
+}
+
+.descargar {
+    height: 1.15rem;
+    width: 1.15rem;
+    padding-right: 1.5rem;
+}
+
+.descargar:hover {
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #c78c19;
+}
+
+/*---Footer---*/
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    background: linear-gradient(#F5F5F5, #bbb8b8cc);
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+.caja-footer {
+    display: inline-block;
+    width: 25%;
+    margin: 0 auto;
+    padding: 1rem;
+    vertical-align: top;
+}
+
+.email {
+    text-decoration: none;
+    color: black;
+}
+
+.email:hover {
+    color: #f3a702;
+}
+
+.copyright {
+    vertical-align: bottom;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0 6rem 0 6rem
+}
+
+.redes-sociales {
+    float: right;
+    text-align: right;
+    margin-right: 4rem;
+}
+
+.github-negro {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.linkedin-negro {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+}
+
+.twitter-negro {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 1.3rem;
+}
+
+.proyectos {
+    padding: 0.1em;
+    width: 1200px;
+    margin: 0 0 5rem 12rem;
+}
+
+.titulo-principal {
+    font-size: 1.85rem;
+}
+
+.titulo-proyecto-1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 0 1rem 0;
+}
+
+.titulo-proyecto-2 {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    font-weight: bold;
+    padding: 1rem 0 1rem 0;
+}
+
+.titulo-proyecto-3 {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    font-weight: bold;
+    padding: 1rem 0 1rem 0;
+}
+
+.foto-proyecto-1 {
+    background: url("imagenes-proyectos/encriptador.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    width: 600px;
+    height: 363px;
+    float: left;
+}
+
+.foto-proyecto-2 {
+    background: url("imagenes-proyectos/ahorcado1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    width: 600px;
+    height: 363px;
+    float: left;
+}
+
+.foto-proyecto-3 {
+    background: url("imagenes-proyectos/barberia.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    width: 600px;
+    height: 363px;
+    float: left;
+}
+
+.descripcion-proyecto {
+    margin-top: 4rem;
+    margin-left: 38.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.botones {
+    position: relative;
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 45rem;
+}
+
+.boton-repositorio {
+    background-color: #EEA302;
+}
+
+.boton-demo {
+    background-color: #ff3b25;
+}
+
+.botones-item {
+    color: black;
+    min-width: 8rem;
+    min-height: 5rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    /* padding: 1.5rem; */
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.3rem;
+    transition-duration: 0.5s;
+    border-color: black;
+    border-width: 0.1rem;
+    border-radius: 1rem;
+    transition: 0.5s all;
+}
+
+.botones-link {
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.7s;
+}
+
+.boton-repositorio:hover {
+    background-color: white;
+    color: #EEA302;
+    cursor: pointer;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.boton-demo:hover {
+    background-color: white;
+    color: #ff3b25;
+    cursor: pointer;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.lenguajes {
+    margin: 1.2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.Progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    background-color: var(--color-neutral-muted);
+    border-radius: 0.5rem;
+    outline: 1px solid transparent;
+    margin-bottom: 1rem;
+    margin-left: 44rem;
+    margin-right: 6rem;
+}
+
+.lenguaje-javascript {
+    margin: 0 3rem 0 6.5rem;
+}
+
+.lenguaje-html {
+    margin: 0 3rem 0 1.5rem;
+}
+
+.lenguaje-css {
+    margin: 0 1.5rem 0 1.5rem
+}
+
+.lenguaje-html-solo {
+    margin: 0 3rem 0 13rem;
+}
+
+.lenguaje-css-solo {
+    margin: 0 1.5rem 0 1.5rem
+}
+
+.circulo-java {
+    width: 1rem;
+    height: 1rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #f1e05a;
+    margin-left: 5rem;
+}
+
+.circulo-html {
+    width: 1rem;
+    height: 1rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #563d7c;
+}
+
+.circulo-css {
+    width: 1rem;
+    height: 1rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #e34c26;
+}
+
+.circulo-html-solo {
+    width: 1rem;
+    height: 1rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #563d7c;
+    margin-left: 11.5rem;
+}
+

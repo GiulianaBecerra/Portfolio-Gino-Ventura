@@ -1,0 +1,271 @@
+/*---Header---*/
+
+body {
+    height: 90vh;
+    font-family: 'League Spartan', sans-serif;
+    background: #F5F5F5;
+}
+
+header {
+    background: linear-gradient(#bbb8b8cc, #F5F5F5);
+    padding: 2rem 3rem 5rem 3rem;
+}
+
+.caja {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.circulo {
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #f3a702;
+}
+
+h1 {
+    position: absolute;
+    display: inline;
+}
+
+.nombre-link {
+    font-size: 1.8rem;
+    color: black;
+    text-decoration: none;
+    margin-left: 2.15rem;
+}
+
+.nombre-link:hover {
+    color: #c78c19;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 2rem;
+}
+
+nav a{
+    color: black;
+    font-size: 1.35rem;
+    text-decoration: none;
+}
+
+.descargar {
+    height: 1.15rem;
+    width: 1.15rem;
+    padding-right: 1.5rem;
+}
+
+.descargar:hover {
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #c78c19;
+}
+
+/*---Footer---*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 2rem 0 2rem;
+    margin: 0 auto;
+    background: linear-gradient(#F5F5F5, #bbb8b8cc);
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+.caja-footer {
+    display: inline-block;
+    width: 25%;
+    margin: 0 auto;
+    padding: 1rem;
+    vertical-align: top;
+}
+
+.email {
+    text-decoration: none;
+    color: black;
+}
+
+.email:hover {
+    color: #f3a702;
+}
+
+.copyright {
+    vertical-align: bottom;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0 6rem 0 6rem
+}
+
+.redes-sociales {
+    float: right;
+    text-align: right;
+    margin-right: 4rem;
+}
+
+.github-negro {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.linkedin-negro {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+}
+
+.twitter-negro {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 1.3rem;
+}
+
+/*---Contenido de la pagina---*/
+
+body {
+    height: 100vh;
+}
+
+.educacion {
+    padding: 0.1em;
+    width: 1200px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.titulo-educacion {
+    font-size: 1.85rem;
+    position: absolute;
+    display: inline;
+}
+
+.estudios {
+    margin-left: 28rem;
+}
+
+.fecha {
+    font-size: 1.2rem;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.institucion {
+    font-size: 1.2rem;
+    line-height: 2;
+    padding: 0 0 1.35rem;
+}
+
+.titulo-skills {
+    font-size: 1.85rem;
+    position: absolute;
+    display: inline;
+}
+
+.skills {
+    margin-left: 28rem;
+}
+
+.cuadro {
+    position: relative;
+    display: inline-block;
+    height: 7rem;
+    width: 7rem;
+    background-color: rgb(255, 255, 255);
+    border: 0.15rem solid rgb(0, 0, 0);
+    border-radius: 0.7rem;
+    transition-duration: 0.4s;
+    margin-right: 1rem;
+}
+
+.texto {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.cuadro-cmas {
+    background: url("iconos-curriculum/c++.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 3rem;
+}
+
+.cuadro-cmas:hover {
+    border-color: #163ad6;
+    transform: scale(1.2);
+    box-shadow: 0.7rem 0.7rem 0.6rem #888888;
+}
+
+.cuadro-java {
+    background: url("iconos-curriculum/java.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 3rem;
+}
+
+.cuadro-java:hover {
+    border-color: #d61616;
+    transform: scale(1.2);
+    box-shadow: 0.7rem 0.7rem 0.6rem #888888;
+}
+
+.cuadro-javascript {
+    background: url("iconos-curriculum/javascript.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 3rem;
+}
+
+.cuadro-javascript:hover {
+    border-color: #dbcd00;
+    transform: scale(1.2);
+    box-shadow: 0.7rem 0.7rem 0.6rem #888888;
+}
+
+.cuadro-html {
+    background: url("iconos-curriculum/html.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 3rem;
+}
+
+.cuadro-html:hover {
+    border-color: #FF5733;
+    transform: scale(1.2);
+    box-shadow: 0.7rem 0.7rem 0.6rem #888888;
+}
+
+.cuadro-css {
+    background: url("iconos-curriculum/css.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 3rem;
+}
+
+.cuadro-css:hover {
+    border-color: #18FCFE;
+    transform: scale(1.2);
+    box-shadow: 0.7rem 0.7rem 0.6rem #888888;
+}
+
+
